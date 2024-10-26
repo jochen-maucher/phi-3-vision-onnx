@@ -1,7 +1,8 @@
-This small application shows how to inference with the Phi 3 Vision (Phi-3-vision-128k-instruct-onnx-cuda) model.
-We do not use the transformers library here, we use the onnxruntime for GenAI. At the moment, opnnxruntime-genai is in preview.
+Testing onnxruntime-genai-cuda and phi-3-vision-128k-instruct on a laptop
 
-Environment:
+Run setup.sh in script folder to install all requirements
+
+Tested Environment:
 
 1. Ubuntu 24.04.1 LTS
 2. DELL XPS 15 9530
@@ -27,6 +28,3 @@ Environment:
 |    0   N/A  N/A      2963      G   /usr/lib/xorg/Xorg                              4MiB |
 +-----------------------------------------------------------------------------------------+
 </pre>
-
-1. chmod +x setup.sh
-2. ./setup.sh
