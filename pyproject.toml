@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "phi-3-vision-onnx"
+version = "0.1.0"
+description = "Inferencing with Phi-3-vision-128k-instruct"
+authors = ["Jochen Maucher <jochen@smashlines.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.5.0"
+torchvision = "^0.20.0"
+transformers = "^4.46.0"
+huggingface-hub = {extras = ["cli"], version = "^0.26.1"}
+numpy = "^2.1.2"
+pillow = "^11.0.0"
+onnxruntime-genai-cuda = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
