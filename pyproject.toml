@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "phi-vision"
+name = "phi-3-vision-onnx"
 version = "0.1.0"
 description = "Inferencing with Phi-3-vision-128k-instruct"
 authors = ["Jochen Maucher <jochen@smashlines.com>"]
