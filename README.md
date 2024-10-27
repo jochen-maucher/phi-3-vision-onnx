@@ -1,12 +1,12 @@
-Testing onnxruntime-genai-cuda and phi-3-vision-128k-instruct on a laptop
+This is a small test application that runs inference the phi-3-vision-128k-instruct model with onnxruntime-genai-cuda.
 
-Run setup.sh in script folder to install all requirements
-
-Tested Environment:
+## Tested Environment
 
 1. Ubuntu 24.04.1 LTS
-2. DELL XPS 15 9530
-3. Graphic Card (nvidia-smi output)
+2. DELL XPS 15 9530 with NVIDIA GeForce RTX 4060
+3. Python 3.12
+
+nvidia-smi output:  
 <pre>
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.107.02             Driver Version: 550.107.02     CUDA Version: 12.4     |
@@ -28,3 +28,8 @@ Tested Environment:
 |    0   N/A  N/A      2963      G   /usr/lib/xorg/Xorg                              4MiB |
 +-----------------------------------------------------------------------------------------+
 </pre>
+
+## Setup to get started:  
+- Create a virtual environment in python (I used python 3.12, the venv module and poetry for dependency management)
+- Run <code>setup.sh</code> in script folder to install all requirements. This installs all python packages (using poetry), downloads the phi model and installs cuda. 
+- If everything is setup without errors, then run <code>python main.py</code>
