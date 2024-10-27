@@ -6,7 +6,7 @@ Tested Environment:
 
 1. Ubuntu 24.04.1 LTS
 2. DELL XPS 15 9530
-3. Graphic Card (nvidia-smi ouput)
+3. Graphic Card (nvidia-smi output)
 <pre>
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.107.02             Driver Version: 550.107.02     CUDA Version: 12.4     |
